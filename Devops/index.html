@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Team Nova - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      backdrop-filter: blur(10px);
+    }
+    .navbar h3 {
+      margin: 0;
+      color: #ff6347;
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+    .navbar-links {
+      display: flex;
+      gap: 20px;
+    }
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 8px 12px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+    .navbar a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      color: #ffd700;
+    }
+    .main-content {
+      background: rgba(0, 0, 0, 0.75);
+      min-height: 100vh;
+      padding: 140px 20px 60px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      font-size: 4em;
+      color: #ff6347;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 2em;
+      color: #ffd700;
+      margin-bottom: 30px;
+    }
+    .cta-button {
+      padding: 14px 30px;
+      background-color: #ffd700;
+      color: #000;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2em;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: background-color 0.3s, transform 0.3s;
+    }
+    .cta-button:hover {
+      background-color: #ff6347;
+      color: #fff;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <h3>Team Nova</h3>
+    <div class="navbar-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </div>
+  </div>
+  <div class="main-content">
+    <h1>Welcome to Team Nova</h1>
+    <h2>Igniting Ideas Into Reality</h2>
+    <a href="about.html" class="cta-button">Meet the Team</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aswin - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.85);
+      padding: 40px;
+      min-height: 100vh;
+    }
+    .intro {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid #ffd700;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 3em;
+      color: #ff6347;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 40px;
+    }
+    .card h2 {
+      color: #ffd700;
+    }
+    .projects ul {
+      list-style: none;
+      padding: 0;
+    }
+    .projects li {
+      margin: 10px 0;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 10px;
+      border-radius: 6px;
+    }
+    a {
+      color: #ffa86b;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #ff6347;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 18px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="intro" data-aos="fade-down">
+      <img src ="C:\Users\Shajin\Devops\502210.jpg" alt="Aswin Profile" class="profile-pic" />
+      <h1>Hello, I'm Aswin 🎧</h1>
+      <p>A dedicated tech enthusiast passionate about leveraging programming skills to develop innovative solutions and enhance user experiences.</p>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+      <h2>💼 Skills</h2>
+      <p>Python, C, Java, HTML, CSS, UI/UX</p>
+    </div>
+
+    <div class="card projects" data-aos="fade-up">
+      <h2>🎵 Projects</h2>
+      <ul>
+        <li><strong>Personal Portfolio Website</strong> – Designed and developed a responsive portfolio using HTML, CSS, and JavaScript to showcase my work and skills.</li>
+        <li><strong>Figma Clone</strong> – Developed a collaborative design tool using React.js, emulating core functionalities of Figma for real-time editing and prototyping.</li>
+        <li><strong>Online Quiz System</strong> – Built a Java-based application that allows users to take timed quizzes with multiple-choice questions, providing instant feedback and scores.</li>
+        <li><strong>Snake Game</strong> – Created a classic Snake game using C++, featuring smooth controls and a scoring system.</li>
+        <li><strong>Scraping Data From Google Maps</strong> – Developed a Python script to extract business information from Google Maps for data analysis purposes.</li>
+      </ul>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+      <h2>📫 Contact</h2>
+      <p>Email: <a href="mailto:aswin.502210@sxcce.edu.in">aswin.502210@sxcce.edu.in</a></p>
+      <p>Phone: <a href="tel:+919150537268">+91 91505 37268</a></p>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+      <h2>🌐 Find Me Online</h2>
+      <p>
+        <a href="https://github.com/aaswin23" target="_blank">GitHub</a> | 
+        <a href="https://www.linkedin.com/in/aswin-a-9a59452a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+      </p>
+    </div>
+
+    <footer>&copy; 2025 Aswin. Made with ❤️</footer>
+  </div>
+
+  <a href="#" class="back-to-top" title="Back to top">↑</a>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

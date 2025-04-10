@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shajin Ragul - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.85);
+      padding: 40px;
+      min-height: 100vh;
+    }
+    .intro {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid #00bcd4;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 3em;
+      color: #00bcd4;
+      font-weight: 700;
+    }
+    .card {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 12px;
+      margin-top: 40px;
+      color: #fff;
+    }
+    .card h2 {
+      color: #00bcd4;
+      font-weight: 700;
+      margin-bottom: 15px;
+      font-size: 1.8em;
+    }
+    .projects ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .projects li {
+      margin: 10px 0;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 12px 16px;
+      border-radius: 6px;
+      color: #f1f1f1;
+      font-weight: 300;
+      line-height: 1.6;
+    }
+    strong {
+      color: #00bcd4;
+      font-weight: 700;
+    }
+    a {
+      color: #ffa86b;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #00bcd4;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 18px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="intro" data-aos="fade-down">
+      <img src="C:\Users\Shajin\Devops\502250.jpg" alt="Shajin Profile" class="profile-pic" />
+      <h1>Hello, I'm <strong>Shajin Ragul</strong> 👋</h1>
+      <p>A passionate developer crafting efficient and scalable applications.</p>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+      <h2>💡 SKILLS</h2>
+      <p>Python, C, Java, React.js, HTML & CSS</p>
+
+    </div>
+
+    <div class="card projects" data-aos="fade-up">
+      <h2>🚀 PROJECTS</h2>
+      <ul>
+        <li>Personal Portfolio Website – Designed and developed a responsive personal portfolio using HTML & CSS.</li>
+        <li>To-Do List App – Built using React.js to manage tasks with add/edit/delete features.</li>
+        <li>Simple Calculator – Python-based calculator performing basic arithmetic operations.</li>
+        <li>Library Management System – Java application to manage book issuance and returns.</li>
+      </ul>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+      <h2>📫 CONTACT</h2>
+      <p>Email: <a href="mailto:shajinragul@gmail.com">shajinragul@gmail.com</a></p>
+      <p>Phone: <a href="tel:+918270040517">+91 82700 40517</a></p>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+      <h2>🌐 FIND ME ONLINE</h2>
+      <p>
+        <a href="https://github.com/shajinragul" target="_blank"><strong>GitHub</strong></a> |
+        <a href="https://www.linkedin.com/in/shajin-ragul-570b2529a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><strong>LinkedIn</strong></a>
+      </p>
+    </div>
+
+    <footer>&copy; 2025 Shajin Ragul. Made with <span style="color: #00bcd4;">❤️</span></footer>
+  </div>
+
+  <a href="#" class="back-to-top" title="Back to top">↑</a>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

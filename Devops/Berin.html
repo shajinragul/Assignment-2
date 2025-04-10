@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Berin - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.85);
+      padding: 40px;
+      min-height: 100vh;
+    }
+    .intro {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 120px; /* added to delay cards */
+    }
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid #00ffff;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 3em;
+      color: #00ffff;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 80px; /* increased to move cards further down */
+    }
+    .card h2 {
+      color: #00ffff;
+    }
+    .projects ul {
+      list-style: none;
+      padding: 0;
+    }
+    .projects li {
+      margin: 10px 0;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 10px;
+      border-radius: 6px;
+    }
+    a {
+      color: #ffa86b;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #00ffff;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 18px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="intro" data-aos="fade-down">
+      <img src="C:\Users\Shajin\Devops\502214.jpg" alt="Berin Profile" class="profile-pic" />
+      <h1>Hi, I'm Berin 💻</h1>
+      <p>A skilled programmer and editor, passionate about writing efficient code and creating stunning visuals.</p>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+      <h2>💡 Skills</h2>
+      <p>Python, C, Java, Video Editing, Adobe Premiere Pro, After Effects</p>
+    </div>
+
+    <div class="card projects" data-aos="fade-up">
+      <h2>🚀 Projects</h2>
+      <ul>
+        <li><strong>Video Editing Portfolio</strong> – Created a collection of cinematic edits and montages using Premiere Pro and After Effects, demonstrating storytelling through visuals.</li>
+        <li><strong>Personal Portfolio Website</strong> – Built a personal website showcasing my skills and projects using HTML and CSS.</li>
+        <li><strong>Mini Quiz App</strong> – Developed a simple quiz application using Java with a timer and result summary.</li>
+      </ul>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+      <h2>📫 Contact</h2>
+      <p>Email: <a href="mailto:berin.502208@sxcce.edu.in">berin.502208@sxcce.edu.in</a></p>
+      <p>Phone: <a href="tel:+919123456789">+91 91234 56789</a></p>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+      <h2>🌐 Find Me Online</h2>
+      <p>
+        <a href="https://github.com/Berintm" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/berin-t-m-998b2129a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_appS" target="_blank">LinkedIn</a>
+      </p>
+    </div>
+
+    <footer>&copy; 2025 Berin. Made with 💙</footer>
+  </div>
+
+  <a href="#" class="back-to-top" title="Back to top">↑</a>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
